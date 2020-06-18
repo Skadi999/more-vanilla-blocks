@@ -1,0 +1,6 @@
+{
+    "parent": "block/fence_post",
+    "textures": {
+        "texture": "morevanillablocks:block/bamboo_block"
+    }
+}

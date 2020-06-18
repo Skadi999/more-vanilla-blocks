@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "morevanillablocks:block/bamboo_block"
+  }
+}

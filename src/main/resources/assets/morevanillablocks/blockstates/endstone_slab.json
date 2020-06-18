@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "morevanillablocks:block/endstone_slab" },
+        "type=top": { "model": "morevanillablocks:block/endstone_slab_top" },
+        "type=double": { "model": "block/end_stone" }
+    }
+}

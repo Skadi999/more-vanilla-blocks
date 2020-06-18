@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "morevanillablocks:block/magenta_wool_slab" },
+        "type=top": { "model": "morevanillablocks:block/magenta_wool_slab_top" },
+        "type=double": { "model": "block/magenta_wool" }
+    }
+}

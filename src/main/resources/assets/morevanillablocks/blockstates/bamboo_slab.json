@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "morevanillablocks:block/bamboo_slab" },
+        "type=top": { "model": "morevanillablocks:block/bamboo_slab_top" },
+        "type=double": { "model": "morevanillablocks:block/bamboo_block" }
+    }
+}

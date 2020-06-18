@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "morevanillablocks:block/light_gray_concrete_slab" },
+        "type=top": { "model": "morevanillablocks:block/light_gray_concrete_slab_top" },
+        "type=double": { "model": "block/light_gray_concrete" }
+    }
+}

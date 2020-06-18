@@ -1,0 +1,17 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "#  ",
+    "## ",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "morevanillablocks:bamboo_block"
+    }
+  },
+  "result": {
+    "item": "morevanillablocks:bamboo_stairs",
+    "count": 4
+  }
+}

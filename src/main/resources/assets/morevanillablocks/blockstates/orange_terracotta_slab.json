@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "morevanillablocks:block/orange_terracotta_slab" },
+        "type=top": { "model": "morevanillablocks:block/orange_terracotta_slab_top" },
+        "type=double": { "model": "block/orange_terracotta" }
+    }
+}

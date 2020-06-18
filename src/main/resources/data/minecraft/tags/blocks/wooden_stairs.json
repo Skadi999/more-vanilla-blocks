@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "morevanillablocks:oak_log_stairs",
+    "morevanillablocks:spruce_log_stairs",
+    "morevanillablocks:birch_log_stairs",
+    "morevanillablocks:acacia_log_stairs",
+    "morevanillablocks:jungle_log_stairs",
+    "morevanillablocks:dark_oak_log_stairs",
+    "morevanillablocks:bamboo_stairs"
+  ]
+}

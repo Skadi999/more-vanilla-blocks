@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "wooden_fence",
+  "pattern": [
+    "W#W",
+    "W#W"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:bamboo"
+    },
+    "W": {
+      "item": "morevanillablocks:bamboo_block"
+    }
+  },
+  "result": {
+    "item": "morevanillablocks:bamboo_fence",
+    "count": 3
+  }
+}
