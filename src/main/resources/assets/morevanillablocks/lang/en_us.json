@@ -1,9 +1,4 @@
 {
-  "item.morevanillablocks.test_ingot": "Skadi's Test Ingot",
-  "itemGroup.morevanillablocks": "Skadi's Items",
-  "item.morevanillablocks.skadi_sword": "Skadi's Blood Blade",
-  "item.morevanillablocks.skadi_axe": "Skadi's Dark Axe",
-  "block.morevanillablocks.example_ore": "My First Block :DD",
   "block.morevanillablocks.bamboo_block": "Bamboo Block",
 
   "block.morevanillablocks.glowstone_stairs": "Glowstone Stairs",
@@ -100,6 +95,8 @@
   "block.morevanillablocks.stripped_jungle_log_stairs": "Stripped Jungle Log Stairs",
   "block.morevanillablocks.stripped_acacia_log_stairs": "Stripped Acacia Log Stairs",
   "block.morevanillablocks.stripped_dark_oak_log_stairs": "Stripped Dark Oak Log Stairs",
+  "block.morevanillablocks.netherite_stairs": "Netherite Stairs",
+  "block.morevanillablocks.quartz_brick_stairs": "Quartz Brick Stairs",
 
   "block.morevanillablocks.glowstone_slab": "Glowstone Slab",
   "block.morevanillablocks.endstone_slab": "End Stone Slab",
@@ -195,6 +192,8 @@
   "block.morevanillablocks.stripped_jungle_log_slab": "Stripped Jungle Log Slab",
   "block.morevanillablocks.stripped_acacia_log_slab": "Stripped Acacia Log Slab",
   "block.morevanillablocks.stripped_dark_oak_log_slab": "Stripped Dark Oak Log Slab",
+  "block.morevanillablocks.netherite_slab": "Netherite Slab",
+  "block.morevanillablocks.quartz_brick_slab": "Quartz Brick Slab",
 
   "block.morevanillablocks.glowstone_wall": "Glowstone Wall",
   "block.morevanillablocks.endstone_wall": "Endstone Wall",
@@ -243,6 +242,8 @@
   "block.morevanillablocks.polished_granite_wall": "Polished Granite Wall",
   "block.morevanillablocks.polished_diorite_wall": "Polished Diorite Wall",
   "block.morevanillablocks.polished_andesite_wall": "Polished Andesite Wall",
+  "block.morevanillablocks.netherite_wall": "Netherite Wall",
+  "block.morevanillablocks.quartz_brick_wall": "Quartz Brick Wall",
 
   "block.morevanillablocks.oak_log_fence": "Oak Log Fence",
   "block.morevanillablocks.birch_log_fence": "Birch Log Fence",

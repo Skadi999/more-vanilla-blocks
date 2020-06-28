@@ -1,20 +1,7 @@
 {
   "replace": false,
   "values": [
-    "morevanillablocks:oak_log_fence",
-    "morevanillablocks:birch_log_fence",
-    "morevanillablocks:spruce_log_fence",
-    "morevanillablocks:acacia_log_fence",
-    "morevanillablocks:jungle_log_fence",
-    "morevanillablocks:dark_oak_log_fence",
-    "morevanillablocks:stripped_oak_log_fence",
-    "morevanillablocks:stripped_spruce_log_fence",
-    "morevanillablocks:stripped_birch_log_fence",
-    "morevanillablocks:stripped_acacia_log_fence",
-    "morevanillablocks:stripped_jungle_log_fence",
-    "morevanillablocks:stripped_dark_oak_log_fence",
     "morevanillablocks:bamboo_fence",
-    "morevanillablocks:red_nether_brick_fence",
-    "morevanillablocks:clay_fence"
+    "morevanillablocks:red_nether_brick_fence"
   ]
 }

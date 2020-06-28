@@ -1,12 +1,6 @@
 {
   "replace": false,
   "values": [
-    "morevanillablocks:oak_log_slab",
-    "morevanillablocks:spruce_log_slab",
-    "morevanillablocks:birch_log_slab",
-    "morevanillablocks:acacia_log_slab",
-    "morevanillablocks:jungle_log_slab",
-    "morevanillablocks:dark_oak_log_slab",
     "morevanillablocks:bamboo_slab"
   ]
 }

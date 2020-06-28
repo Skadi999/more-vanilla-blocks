@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "morevanillablocks:block/netherite_slab" },
+        "type=top": { "model": "morevanillablocks:block/netherite_slab_top" },
+        "type=double": { "model": "block/netherite_block" }
+    }
+}

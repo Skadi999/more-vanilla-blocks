@@ -14,12 +14,6 @@
     "morevanillablocks:emerald_stairs",
     "morevanillablocks:sea_lantern_stairs",
     "morevanillablocks:clay_stairs",
-    "morevanillablocks:oak_log_stairs",
-    "morevanillablocks:spruce_log_stairs",
-    "morevanillablocks:birch_log_stairs",
-    "morevanillablocks:acacia_log_stairs",
-    "morevanillablocks:jungle_log_stairs",
-    "morevanillablocks:dark_oak_log_stairs",
     "morevanillablocks:coarse_dirt_stairs",
     "morevanillablocks:white_terracotta_stairs",
     "morevanillablocks:orange_terracotta_stairs",
@@ -88,6 +82,8 @@
     "morevanillablocks:green_glazed_terracotta_stairs",
     "morevanillablocks:red_glazed_terracotta_stairs",
     "morevanillablocks:black_glazed_terracotta_stairs",
-    "morevanillablocks:bamboo_stairs"
+    "morevanillablocks:bamboo_stairs",
+    "morevanillablocks:netherite_stairs",
+    "morevanillablocks:quartz_brick_stairs"
   ]
 }

@@ -47,6 +47,8 @@
     "morevanillablocks:black_concrete_wall",
     "morevanillablocks:polished_granite_wall",
     "morevanillablocks:polished_diorite_wall",
-    "morevanillablocks:polished_andesite_wall"
+    "morevanillablocks:polished_andesite_wall",
+    "morevanillablocks:netherite_wall",
+    "morevanillablocks:quartz_brick_wall"
   ]
 }
