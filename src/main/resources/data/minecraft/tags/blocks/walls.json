@@ -49,6 +49,10 @@
     "morevanillablocks:polished_diorite_wall",
     "morevanillablocks:polished_andesite_wall",
     "morevanillablocks:netherite_wall",
-    "morevanillablocks:quartz_brick_wall"
+    "morevanillablocks:quartz_brick_wall",
+	"morevanillablocks:prismarine_bricks_wall",
+    "morevanillablocks:dark_prismarine_wall",
+    "morevanillablocks:basalt_wall",
+    "morevanillablocks:polished_basalt_wall"
   ]
 }

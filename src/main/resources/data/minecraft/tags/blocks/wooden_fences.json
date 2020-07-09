@@ -1,6 +1,20 @@
 {
   "replace": false,
   "values": [
-    "morevanillablocks:bamboo_fence"
+    "morevanillablocks:oak_wood_fence",
+    "morevanillablocks:birch_wood_fence",
+    "morevanillablocks:spruce_wood_fence",
+    "morevanillablocks:acacia_wood_fence",
+    "morevanillablocks:jungle_wood_fence",
+    "morevanillablocks:dark_oak_wood_fence",
+    "morevanillablocks:stripped_oak_wood_fence",
+    "morevanillablocks:stripped_spruce_wood_fence",
+    "morevanillablocks:stripped_birch_wood_fence",
+    "morevanillablocks:stripped_acacia_wood_fence",
+    "morevanillablocks:stripped_jungle_wood_fence",
+    "morevanillablocks:stripped_dark_oak_wood_fence",
+    "morevanillablocks:bamboo_fence",
+    "morevanillablocks:crimson_hyphae_fence",
+    "morevanillablocks:warped_hyphae_fence"
   ]
 }

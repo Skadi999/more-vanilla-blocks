@@ -1,0 +1,8 @@
+{
+    "parent": "block/slab",
+    "textures": {
+        "bottom": "block/crimson_stem",
+        "top": "block/crimson_stem",
+        "side": "block/crimson_stem"
+    }
+}

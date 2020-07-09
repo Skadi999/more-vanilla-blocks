@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "morevanillablocks:block/dark_oak_wood_slab" },
+        "type=top": { "model": "morevanillablocks:block/dark_oak_wood_slab_top" },
+        "type=double": { "model": "block/dark_oak_wood" }
+    }
+}
