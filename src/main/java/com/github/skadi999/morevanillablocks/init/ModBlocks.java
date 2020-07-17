@@ -1,8 +1,10 @@
 package com.github.skadi999.morevanillablocks.init;
 
 import com.github.skadi999.morevanillablocks.MoreVanillaBlocks;
+import com.github.skadi999.morevanillablocks.blocks.ModHorizontalSlab;
 import net.minecraft.block.*;
 import net.minecraft.block.material.Material;
+import net.minecraft.block.material.MaterialColor;
 import net.minecraftforge.fml.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -10,7 +12,11 @@ import net.minecraftforge.registries.ForgeRegistries;
 
 public class ModBlocks {
     public static final DeferredRegister<Block> BLOCKS = DeferredRegister.create(ForgeRegistries.BLOCKS, MoreVanillaBlocks.MODID);
-    public static final RegistryObject<Block> BAMBOO_BLOCK = BLOCKS.register("bamboo_block", () -> new Block(Block.Properties.create(Material.WOOD).hardnessAndResistance(0.3F)));
+    public static final RegistryObject<Block> BAMBOO_BLOCK = BLOCKS.register("bamboo_block", () -> new Block(Block.Properties.create(Material.WOOD, MaterialColor.DIRT).hardnessAndResistance(0.2F).sound(SoundType.WOOD)));
+    public static final RegistryObject<Block> MOD_RED_MUSHROOM = BLOCKS.register("mod_red_mushroom", () -> new Block(Block.Properties.create(Material.WOOD).hardnessAndResistance(0.3F)));
+    public static final RegistryObject<Block> MOD_BROWN_MUSHROOM = BLOCKS.register("mod_brown_mushroom", () -> new Block(Block.Properties.create(Material.WOOD).hardnessAndResistance(0.3F)));
+    public static final RegistryObject<Block> MOD_MUSHROOM = BLOCKS.register("mod_mushroom", () -> new Block(Block.Properties.create(Material.WOOD).hardnessAndResistance(0.3F)));
+    public static final RegistryObject<Block> MOD_MUSHROOM_STEM = BLOCKS.register("mod_mushroom_stem", () -> new Block(Block.Properties.create(Material.WOOD).hardnessAndResistance(0.3F)));
 
     public static final RegistryObject<Block> GLOWSTONE_STAIRS = BLOCKS.register("glowstone_stairs", () -> new StairsBlock(Blocks.GLOWSTONE::getDefaultState, Block.Properties.from(Blocks.GLOWSTONE)));
     public static final RegistryObject<Block> ENDSTONE_STAIRS = BLOCKS.register("endstone_stairs", () -> new StairsBlock(Blocks.END_STONE::getDefaultState, Block.Properties.from(Blocks.END_STONE)));
@@ -120,6 +126,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> STRIPPED_DARK_OAK_LOG_STAIRS = BLOCKS.register("stripped_dark_oak_log_stairs", () -> new StairsBlock(Blocks.STRIPPED_DARK_OAK_WOOD::getDefaultState, Block.Properties.from(Blocks.STRIPPED_DARK_OAK_WOOD)));
     public static final RegistryObject<Block> BASALT_STAIRS = BLOCKS.register("basalt_stairs", () -> new StairsBlock(Blocks.field_235337_cO_::getDefaultState, Block.Properties.from(Blocks.field_235337_cO_)));
     public static final RegistryObject<Block> POLISHED_BASALT_STAIRS = BLOCKS.register("polished_basalt_stairs", () -> new StairsBlock(Blocks.field_235338_cP_::getDefaultState, Block.Properties.from(Blocks.field_235338_cP_)));
+//    public static final RegistryObject<Block> GRASS_BLOCK_STAIRS = BLOCKS.register("grass_block_stairs", () -> new StairsBlock(Blocks.GRASS_BLOCK::getDefaultState, Block.Properties.from(Blocks.GRASS_BLOCK).tickRandomly()));
+    public static final RegistryObject<Block> DIRT_STAIRS = BLOCKS.register("dirt_stairs", () -> new StairsBlock(Blocks.DIRT::getDefaultState, Block.Properties.from(Blocks.DIRT)));
+//    public static final RegistryObject<Block> GRASS_PATH_STAIRS = BLOCKS.register("grass_path_stairs", () -> new StairsBlock(Blocks.GRASS_PATH::getDefaultState, Block.Properties.from(Blocks.GRASS_PATH)));
+    public static final RegistryObject<Block> BROWN_MUSHROOM_STAIRS = BLOCKS.register("brown_mushroom_stairs", () -> new StairsBlock(Blocks.BROWN_MUSHROOM_BLOCK::getDefaultState, Block.Properties.from(Blocks.BROWN_MUSHROOM_BLOCK)));
+    public static final RegistryObject<Block> RED_MUSHROOM_STAIRS = BLOCKS.register("red_mushroom_stairs", () -> new StairsBlock(Blocks.RED_MUSHROOM_BLOCK::getDefaultState, Block.Properties.from(Blocks.RED_MUSHROOM_BLOCK)));
+    public static final RegistryObject<Block> MUSHROOM_STAIRS = BLOCKS.register("mushroom_stairs", () -> new StairsBlock(Blocks.BROWN_MUSHROOM_BLOCK::getDefaultState, Block.Properties.from(Blocks.BROWN_MUSHROOM_BLOCK)));
+    public static final RegistryObject<Block> MUSHROOM_STEM_STAIRS = BLOCKS.register("mushroom_stem_stairs", () -> new StairsBlock(Blocks.MUSHROOM_STEM::getDefaultState, Block.Properties.from(Blocks.MUSHROOM_STEM)));
 
     public static final RegistryObject<Block> GLOWSTONE_SLAB = BLOCKS.register("glowstone_slab", () -> new SlabBlock(Block.Properties.from(Blocks.GLOWSTONE)));
     public static final RegistryObject<Block> ENDSTONE_SLAB = BLOCKS.register("endstone_slab", () -> new SlabBlock(Block.Properties.from(Blocks.END_STONE)));
@@ -192,22 +205,22 @@ public class ModBlocks {
     public static final RegistryObject<Block> GREEN_WOOL_SLAB = BLOCKS.register("green_wool_slab", () -> new SlabBlock(Block.Properties.from(Blocks.GREEN_WOOL)));
     public static final RegistryObject<Block> RED_WOOL_SLAB = BLOCKS.register("red_wool_slab", () -> new SlabBlock(Block.Properties.from(Blocks.RED_WOOL)));
     public static final RegistryObject<Block> BLACK_WOOL_SLAB = BLOCKS.register("black_wool_slab", () -> new SlabBlock(Block.Properties.from(Blocks.BLACK_WOOL)));
-    public static final RegistryObject<Block> WHITE_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("white_glazed_terracotta_slab", () -> new SlabBlock(Block.Properties.from(Blocks.WHITE_GLAZED_TERRACOTTA)));
-    public static final RegistryObject<Block> ORANGE_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("orange_glazed_terracotta_slab", () -> new SlabBlock(Block.Properties.from(Blocks.ORANGE_GLAZED_TERRACOTTA)));
-    public static final RegistryObject<Block> MAGENTA_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("magenta_glazed_terracotta_slab", () -> new SlabBlock(Block.Properties.from(Blocks.MAGENTA_GLAZED_TERRACOTTA)));
-    public static final RegistryObject<Block> LIGHT_BLUE_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("light_blue_glazed_terracotta_slab", () -> new SlabBlock(Block.Properties.from(Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA)));
-    public static final RegistryObject<Block> YELLOW_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("yellow_glazed_terracotta_slab", () -> new SlabBlock(Block.Properties.from(Blocks.YELLOW_GLAZED_TERRACOTTA)));
-    public static final RegistryObject<Block> LIME_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("lime_glazed_terracotta_slab", () -> new SlabBlock(Block.Properties.from(Blocks.LIME_GLAZED_TERRACOTTA)));
-    public static final RegistryObject<Block> PINK_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("pink_glazed_terracotta_slab", () -> new SlabBlock(Block.Properties.from(Blocks.PINK_GLAZED_TERRACOTTA)));
-    public static final RegistryObject<Block> GRAY_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("gray_glazed_terracotta_slab", () -> new SlabBlock(Block.Properties.from(Blocks.GRAY_GLAZED_TERRACOTTA)));
-    public static final RegistryObject<Block> LIGHT_GRAY_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("light_gray_glazed_terracotta_slab", () -> new SlabBlock(Block.Properties.from(Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA)));
-    public static final RegistryObject<Block> CYAN_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("cyan_glazed_terracotta_slab", () -> new SlabBlock(Block.Properties.from(Blocks.CYAN_GLAZED_TERRACOTTA)));
-    public static final RegistryObject<Block> PURPLE_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("purple_glazed_terracotta_slab", () -> new SlabBlock(Block.Properties.from(Blocks.PURPLE_GLAZED_TERRACOTTA)));
-    public static final RegistryObject<Block> BLUE_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("blue_glazed_terracotta_slab", () -> new SlabBlock(Block.Properties.from(Blocks.BLUE_GLAZED_TERRACOTTA)));
-    public static final RegistryObject<Block> BROWN_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("brown_glazed_terracotta_slab", () -> new SlabBlock(Block.Properties.from(Blocks.BROWN_GLAZED_TERRACOTTA)));
-    public static final RegistryObject<Block> GREEN_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("green_glazed_terracotta_slab", () -> new SlabBlock(Block.Properties.from(Blocks.GREEN_GLAZED_TERRACOTTA)));
-    public static final RegistryObject<Block> RED_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("red_glazed_terracotta_slab", () -> new SlabBlock(Block.Properties.from(Blocks.RED_GLAZED_TERRACOTTA)));
-    public static final RegistryObject<Block> BLACK_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("black_glazed_terracotta_slab", () -> new SlabBlock(Block.Properties.from(Blocks.BLACK_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> WHITE_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("white_glazed_terracotta_slab", () -> new ModHorizontalSlab(Block.Properties.from(Blocks.WHITE_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> ORANGE_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("orange_glazed_terracotta_slab", () -> new ModHorizontalSlab(Block.Properties.from(Blocks.ORANGE_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> MAGENTA_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("magenta_glazed_terracotta_slab", () -> new ModHorizontalSlab(Block.Properties.from(Blocks.MAGENTA_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> LIGHT_BLUE_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("light_blue_glazed_terracotta_slab", () -> new ModHorizontalSlab(Block.Properties.from(Blocks.LIGHT_BLUE_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> YELLOW_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("yellow_glazed_terracotta_slab", () -> new ModHorizontalSlab(Block.Properties.from(Blocks.YELLOW_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> LIME_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("lime_glazed_terracotta_slab", () -> new ModHorizontalSlab(Block.Properties.from(Blocks.LIME_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> PINK_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("pink_glazed_terracotta_slab", () -> new ModHorizontalSlab(Block.Properties.from(Blocks.PINK_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> GRAY_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("gray_glazed_terracotta_slab", () -> new ModHorizontalSlab(Block.Properties.from(Blocks.GRAY_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> LIGHT_GRAY_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("light_gray_glazed_terracotta_slab", () -> new ModHorizontalSlab(Block.Properties.from(Blocks.LIGHT_GRAY_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> CYAN_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("cyan_glazed_terracotta_slab", () -> new ModHorizontalSlab(Block.Properties.from(Blocks.CYAN_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> PURPLE_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("purple_glazed_terracotta_slab", () -> new ModHorizontalSlab(Block.Properties.from(Blocks.PURPLE_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> BLUE_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("blue_glazed_terracotta_slab", () -> new ModHorizontalSlab(Block.Properties.from(Blocks.BLUE_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> BROWN_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("brown_glazed_terracotta_slab", () -> new ModHorizontalSlab(Block.Properties.from(Blocks.BROWN_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> GREEN_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("green_glazed_terracotta_slab", () -> new ModHorizontalSlab(Block.Properties.from(Blocks.GREEN_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> RED_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("red_glazed_terracotta_slab", () -> new ModHorizontalSlab(Block.Properties.from(Blocks.RED_GLAZED_TERRACOTTA)));
+    public static final RegistryObject<Block> BLACK_GLAZED_TERRACOTTA_SLAB = BLOCKS.register("black_glazed_terracotta_slab", () -> new ModHorizontalSlab(Block.Properties.from(Blocks.BLACK_GLAZED_TERRACOTTA)));
     public static final RegistryObject<Block> BAMBOO_SLAB = BLOCKS.register("bamboo_slab", () -> new SlabBlock(Block.Properties.from(ModBlocks.BAMBOO_BLOCK.get())));
     public static final RegistryObject<Block> NETHERITE_SLAB = BLOCKS.register("netherite_slab", () -> new SlabBlock(Block.Properties.from(Blocks.field_235397_ng_)));
     public static final RegistryObject<Block> QUARTZ_BRICK_SLAB = BLOCKS.register("quartz_brick_slab", () -> new SlabBlock(Block.Properties.from(Blocks.field_235395_nI_)));
@@ -229,6 +242,13 @@ public class ModBlocks {
     public static final RegistryObject<Block> WARPED_STEM_SLAB = BLOCKS.register("warped_stem_slab", () -> new SlabBlock(Block.Properties.from(Blocks.field_235368_mh_)));
     public static final RegistryObject<Block> BASALT_SLAB = BLOCKS.register("basalt_slab", () -> new SlabBlock(Block.Properties.from(Blocks.field_235337_cO_)));
     public static final RegistryObject<Block> POLISHED_BASALT_SLAB = BLOCKS.register("polished_basalt_slab", () -> new SlabBlock(Block.Properties.from(Blocks.field_235338_cP_)));
+//    public static final RegistryObject<Block> GRASS_BLOCK_SLAB = BLOCKS.register("grass_block_slab", () -> new SlabBlock(Block.Properties.from(Blocks.GRASS_BLOCK).tickRandomly()));
+    public static final RegistryObject<Block> DIRT_SLAB = BLOCKS.register("dirt_slab", () -> new SlabBlock(Block.Properties.from(Blocks.DIRT)));
+//    public static final RegistryObject<Block> GRASS_PATH_SLAB = BLOCKS.register("grass_path_slab", () -> new SlabBlock(Block.Properties.from(Blocks.GRASS_PATH)));
+    public static final RegistryObject<Block> BROWN_MUSHROOM_SLAB = BLOCKS.register("brown_mushroom_slab", () -> new SlabBlock(Block.Properties.from(Blocks.BROWN_MUSHROOM_BLOCK)));
+    public static final RegistryObject<Block> RED_MUSHROOM_SLAB = BLOCKS.register("red_mushroom_slab", () -> new SlabBlock(Block.Properties.from(Blocks.RED_MUSHROOM_BLOCK)));
+    public static final RegistryObject<Block> MUSHROOM_SLAB = BLOCKS.register("mushroom_slab", () -> new SlabBlock(Block.Properties.from(Blocks.BROWN_MUSHROOM_BLOCK)));
+    public static final RegistryObject<Block> MUSHROOM_STEM_SLAB = BLOCKS.register("mushroom_stem_slab", () -> new SlabBlock(Block.Properties.from(Blocks.MUSHROOM_STEM)));
 
     public static final RegistryObject<Block> GLOWSTONE_WALL = BLOCKS.register("glowstone_wall", () -> new WallBlock(Block.Properties.from(Blocks.GLOWSTONE)));
     public static final RegistryObject<Block> ENDSTONE_WALL = BLOCKS.register("endstone_wall", () -> new WallBlock(AbstractBlock.Properties.from(Blocks.END_STONE)));
@@ -300,6 +320,10 @@ public class ModBlocks {
     public static final RegistryObject<Block> BAMBOO_FENCE = BLOCKS.register("bamboo_fence", () -> new FenceBlock(Block.Properties.from(ModBlocks.BAMBOO_BLOCK.get())));
     public static final RegistryObject<Block> CRIMSON_HYPHAE_FENCE = BLOCKS.register("crimson_hyphae_fence", () -> new FenceBlock(Block.Properties.from(Blocks.field_235379_ms_)));
     public static final RegistryObject<Block> WARPED_HYPHAE_FENCE = BLOCKS.register("warped_hyphae_fence", () -> new FenceBlock(Block.Properties.from(Blocks.field_235370_mj_)));
+    public static final RegistryObject<Block> BROWN_MUSHROOM_FENCE = BLOCKS.register("brown_mushroom_fence", () -> new FenceBlock(Block.Properties.from(Blocks.BROWN_MUSHROOM_BLOCK)));
+    public static final RegistryObject<Block> RED_MUSHROOM_FENCE = BLOCKS.register("red_mushroom_fence", () -> new FenceBlock(Block.Properties.from(Blocks.RED_MUSHROOM_BLOCK)));
+    public static final RegistryObject<Block> MUSHROOM_FENCE = BLOCKS.register("mushroom_fence", () -> new FenceBlock(Block.Properties.from(Blocks.BROWN_MUSHROOM_BLOCK)));
+    public static final RegistryObject<Block> MUSHROOM_STEM_FENCE = BLOCKS.register("mushroom_stem_fence", () -> new FenceBlock(Block.Properties.from(Blocks.MUSHROOM_STEM)));
 
 
 }

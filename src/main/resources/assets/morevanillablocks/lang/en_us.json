@@ -109,6 +109,13 @@
   "block.morevanillablocks.polished_basalt_stairs": "Polished Basalt Stairs",
   "block.morevanillablocks.crimson_stem_stairs": "Crimson Stem Stairs",
   "block.morevanillablocks.warped_stem_stairs": "Warped Stem Stairs",
+  "block.morevanillablocks.grass_block_stairs": "Grass Stairs",
+  "block.morevanillablocks.dirt_stairs": "Dirt Stairs",
+  "block.morevanillablocks.grass_path_stairs": "Grass Path Stairs",
+  "block.morevanillablocks.brown_mushroom_stairs": "Brown Mushroom Stairs",
+  "block.morevanillablocks.red_mushroom_stairs": "Red Mushroom Stairs",
+  "block.morevanillablocks.mushroom_stairs": "Mushroom Stairs",
+  "block.morevanillablocks.mushroom_stem_stairs": "Mushroom Stem Stairs",
 
   "block.morevanillablocks.glowstone_slab": "Glowstone Slab",
   "block.morevanillablocks.endstone_slab": "End Stone Slab",
@@ -218,9 +225,16 @@
   "block.morevanillablocks.polished_basalt_slab": "Polished Basalt Slab",
   "block.morevanillablocks.crimson_stem_slab": "Crimson Stem Slab",
   "block.morevanillablocks.warped_stem_slab": "Warped Stem Slab",
+  "block.morevanillablocks.grass_block_slab": "Grass Slab",
+  "block.morevanillablocks.dirt_slab": "Dirt Slab",
+  "block.morevanillablocks.grass_path_slab": "Grass Path Slab",
+  "block.morevanillablocks.brown_mushroom_slab": "Brown Mushroom Slab",
+  "block.morevanillablocks.red_mushroom_slab": "Red Mushroom Slab",
+  "block.morevanillablocks.mushroom_slab": "Mushroom Slab",
+  "block.morevanillablocks.mushroom_stem_slab": "Mushroom Stem Slab",
 
   "block.morevanillablocks.glowstone_wall": "Glowstone Wall",
-  "block.morevanillablocks.endstone_wall": "Endstone Wall",
+  "block.morevanillablocks.endstone_wall": "End Stone Wall",
   "block.morevanillablocks.obsidian_wall": "Obsidian Wall",
   "block.morevanillablocks.netherrack_wall": "Netherrack Wall",
   "block.morevanillablocks.bone_wall": "Bone Wall",
@@ -288,5 +302,9 @@
   "block.morevanillablocks.stripped_dark_oak_wood_fence": "Stripped Dark Oak Wood Fence",
   "block.morevanillablocks.bamboo_fence": "Bamboo Fence",
   "block.morevanillablocks.crimson_hyphae_fence": "Crimson Hyphae Fence",
-  "block.morevanillablocks.warped_hyphae_fence": "Warped Hyphae Fence"
+  "block.morevanillablocks.warped_hyphae_fence": "Warped Hyphae Fence",
+  "block.morevanillablocks.brown_mushroom_fence": "Brown Mushroom Fence",
+  "block.morevanillablocks.red_mushroom_fence": "Red Mushroom Fence",
+  "block.morevanillablocks.mushroom_fence": "Mushroom Fence",
+  "block.morevanillablocks.mushroom_stem_fence": "Mushroom Stem Fence"
 }

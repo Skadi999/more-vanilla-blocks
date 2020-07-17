@@ -1,6 +1,10 @@
 {
   "replace": false,
   "values": [
-    "morevanillablocks:red_nether_brick_fence"
+    "morevanillablocks:red_nether_brick_fence",
+    "morevanillablocks:brown_mushroom_fence",
+    "morevanillablocks:red_mushroom_fence",
+    "morevanillablocks:mushroom_fence",
+    "morevanillablocks:mushroom_stem_fence"
   ]
 }

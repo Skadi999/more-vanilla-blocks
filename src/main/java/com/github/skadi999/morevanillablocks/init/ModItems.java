@@ -119,6 +119,13 @@ public class ModItems {
     public static final RegistryObject<Item> WARPED_STEM_STAIRS = ITEMS.register("warped_stem_stairs", () -> new BlockItem(ModBlocks.WARPED_STEM_STAIRS.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
     public static final RegistryObject<Item> BASALT_STAIRS = ITEMS.register("basalt_stairs", () -> new BlockItem(ModBlocks.BASALT_STAIRS.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
     public static final RegistryObject<Item> POLISHED_BASALT_STAIRS = ITEMS.register("polished_basalt_stairs", () -> new BlockItem(ModBlocks.POLISHED_BASALT_STAIRS.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+//    public static final RegistryObject<Item> GRASS_BLOCK_STAIRS = ITEMS.register("grass_block_stairs", () -> new BlockItem(ModBlocks.GRASS_BLOCK_STAIRS.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> DIRT_STAIRS = ITEMS.register("dirt_stairs", () -> new BlockItem(ModBlocks.DIRT_STAIRS.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+//    public static final RegistryObject<Item> GRASS_PATH_STAIRS = ITEMS.register("grass_path_stairs", () -> new BlockItem(ModBlocks.GRASS_PATH_STAIRS.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> BROWN_MUSHROOM_STAIRS = ITEMS.register("brown_mushroom_stairs", () -> new BlockItem(ModBlocks.BROWN_MUSHROOM_STAIRS.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> RED_MUSHROOM_STAIRS = ITEMS.register("red_mushroom_stairs", () -> new BlockItem(ModBlocks.RED_MUSHROOM_STAIRS.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> MUSHROOM_STAIRS = ITEMS.register("mushroom_stairs", () -> new BlockItem(ModBlocks.MUSHROOM_STAIRS.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> MUSHROOM_STEM_STAIRS = ITEMS.register("mushroom_stem_stairs", () -> new BlockItem(ModBlocks.MUSHROOM_STEM_STAIRS.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
 
     public static final RegistryObject<Item> GLOWSTONE_SLAB = ITEMS.register("glowstone_slab", () -> new BlockItem(ModBlocks.GLOWSTONE_SLAB.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
     public static final RegistryObject<Item> ENDSTONE_SLAB = ITEMS.register("endstone_slab", () -> new BlockItem(ModBlocks.ENDSTONE_SLAB.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
@@ -228,6 +235,13 @@ public class ModItems {
     public static final RegistryObject<Item> POLISHED_BASALT_SLAB = ITEMS.register("polished_basalt_slab", () -> new BlockItem(ModBlocks.POLISHED_BASALT_SLAB.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
     public static final RegistryObject<Item> CRIMSON_STEM_SLAB = ITEMS.register("crimson_stem_slab", () -> new BlockItem(ModBlocks.CRIMSON_STEM_SLAB.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
     public static final RegistryObject<Item> WARPED_STEM_SLAB = ITEMS.register("warped_stem_slab", () -> new BlockItem(ModBlocks.WARPED_STEM_SLAB.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+//    public static final RegistryObject<Item> GRASS_BLOCK_SLAB = ITEMS.register("grass_block_slab", () -> new BlockItem(ModBlocks.GRASS_BLOCK_SLAB.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> DIRT_SLAB = ITEMS.register("dirt_slab", () -> new BlockItem(ModBlocks.DIRT_SLAB.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+//    public static final RegistryObject<Item> GRASS_PATH_SLAB = ITEMS.register("grass_path_slab", () -> new BlockItem(ModBlocks.GRASS_PATH_SLAB.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> BROWN_MUSHROOM_SLAB = ITEMS.register("brown_mushroom_slab", () -> new BlockItem(ModBlocks.BROWN_MUSHROOM_SLAB.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> RED_MUSHROOM_SLAB = ITEMS.register("red_mushroom_slab", () -> new BlockItem(ModBlocks.RED_MUSHROOM_SLAB.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> MUSHROOM_SLAB = ITEMS.register("mushroom_slab", () -> new BlockItem(ModBlocks.MUSHROOM_SLAB.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
+    public static final RegistryObject<Item> MUSHROOM_STEM_SLAB = ITEMS.register("mushroom_stem_slab", () -> new BlockItem(ModBlocks.MUSHROOM_STEM_SLAB.get(), new Item.Properties().group(ItemGroup.BUILDING_BLOCKS)));
 
     public static final RegistryObject<Item> GLOWSTONE_WALL = ITEMS.register("glowstone_wall", () -> new BlockItem(ModBlocks.GLOWSTONE_WALL.get(), new Item.Properties().group(ItemGroup.DECORATIONS)));
     public static final RegistryObject<Item> ENDSTONE_WALL = ITEMS.register("endstone_wall", () -> new BlockItem(ModBlocks.ENDSTONE_WALL.get(), new Item.Properties().group(ItemGroup.DECORATIONS)));
@@ -299,6 +313,10 @@ public class ModItems {
     public static final RegistryObject<Item> CRIMSON_HYPHAE_FENCE = ITEMS.register("crimson_hyphae_fence", () -> new BlockItem(ModBlocks.CRIMSON_HYPHAE_FENCE.get(), new Item.Properties().group(ItemGroup.DECORATIONS)));
     public static final RegistryObject<Item> WARPED_HYPHAE_FENCE = ITEMS.register("warped_hyphae_fence", () -> new BlockItem(ModBlocks.WARPED_HYPHAE_FENCE.get(), new Item.Properties().group(ItemGroup.DECORATIONS)));
     public static final RegistryObject<Item> BAMBOO_FENCE = ITEMS.register("bamboo_fence", () -> new BlockItem(ModBlocks.BAMBOO_FENCE.get(), new Item.Properties().group(ItemGroup.DECORATIONS)));
+    public static final RegistryObject<Item> BROWN_MUSHROOM_FENCE = ITEMS.register("brown_mushroom_fence", () -> new BlockItem(ModBlocks.BROWN_MUSHROOM_FENCE.get(), new Item.Properties().group(ItemGroup.DECORATIONS)));
+    public static final RegistryObject<Item> RED_MUSHROOM_FENCE = ITEMS.register("red_mushroom_fence", () -> new BlockItem(ModBlocks.RED_MUSHROOM_FENCE.get(), new Item.Properties().group(ItemGroup.DECORATIONS)));
+    public static final RegistryObject<Item> MUSHROOM_FENCE = ITEMS.register("mushroom_fence", () -> new BlockItem(ModBlocks.MUSHROOM_FENCE.get(), new Item.Properties().group(ItemGroup.DECORATIONS)));
+    public static final RegistryObject<Item> MUSHROOM_STEM_FENCE = ITEMS.register("mushroom_stem_fence", () -> new BlockItem(ModBlocks.MUSHROOM_STEM_FENCE.get(), new Item.Properties().group(ItemGroup.DECORATIONS)));
 
 
 }

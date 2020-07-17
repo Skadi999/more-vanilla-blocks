@@ -1,0 +1,7 @@
+{
+    "variants": {
+        "type=bottom": { "model": "morevanillablocks:block/mushroom_slab" },
+        "type=top": { "model": "morevanillablocks:block/mushroom_slab_top" },
+        "type=double": { "model": "morevanillablocks:block/mod_mushroom" }
+    }
+}
